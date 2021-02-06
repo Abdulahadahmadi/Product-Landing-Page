@@ -1,5 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+   .nav-link{
+       display: flex;
+       flex-direction: column;
+       color: black;
+   }
+   a{
+       text-decoration: none;
+   }
+   li{
+       list-style: none;
+   }
+   nav > ul {
+  width: 30em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 55em;
+  margin-top: 0em;
+}
+#header-img{
+    @media(max-width: 200px;)
+}
+
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +33,39 @@
 <body>
     <script src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
-    <header id = "header">
-        <img id="header-img" src="img/logo.jpg"/>
+    <header id ="header">
         <nav id = "nav-bar">
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">How it Works</a>
-            <a class="nav-link" href="#">Pricing</a>
+            <ul>
+            <li><a class="nav-link" href="video">Features</a></li>
+            <li><a class="nav-link" href="video">How it Works</a></li>
+           <li> <a class="nav-link" href="video">Pricing</a></li>
+        </ul>
+        <img id="header-img" src="img/logo.jpg">
+        
         </nav>
     </header>
     <div>
         <h1>
             Handcrafted, home-made masterpieces
         </h1>
-        <form>
-        <input type="email" required placeholder="enter your email here"> 
-        <input type="submit">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" required placeholder="enter your email here"> 
+        <input id="submit" type="submit">
     </form>
     </div>
+    <div>
+    <section>
+        <p> fast shipping is the our key to development</p><br>
+        <p>kfjaskf djasfkjdaskfjdasjfkjdsafk daskf dksjf</p><br>
+        <p>jfaksdfjd;k lasljfkdasjfkdas jfkjdasfkjdask</p> 
+    </section>
+    </div>
+    <section id="video">
 
+
+    </section>
+    
+    
 
 
 
