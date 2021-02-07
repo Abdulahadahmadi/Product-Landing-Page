@@ -60,6 +60,10 @@
     justify-content: center;
     padding: 30px;
 }
+#header{
+    position: fixed;
+    margin-bottom: 30px;
+}
 .foot-link{
     display: inline;
     color: black;
@@ -81,6 +85,30 @@
     line-height: 0.1cm;
     text-align: center;
     
+}
+#box2{
+    border: 1px solid black;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    line-height: 0.1cm;
+    text-align: center;
+    
+}
+#box3{
+    border: 1px solid black;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    line-height: 0.1cm;
+    text-align: center;
+    
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
 }
 #select{
     background: orange;
@@ -109,13 +137,16 @@
     <script src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   
     <header id ="header">
+        <img id="header-img" src="download.jpg">
         <nav id = "nav-bar">
             <ul>
             <li><a class="nav-link" href="#video">Features</a></li>
             <li><a class="nav-link" href="#video">How it Works</a></li>
            <li> <a class="nav-link" href="#video">Pricing</a></li>
         </ul>
-        <img id="header-img" class="fas fa-hands fa-5x"></img>
+        
+
+        <!--<i id="header-img" class="fas fa-hands fa-5x"></i>-->
         
         </nav>
     </header>
@@ -158,7 +189,27 @@
             <input id="select" type = "submit" value="SELECT" name = "button">
         </div>
 
-       
+        <div id="box2">
+            <div id="h2div"><h2 > TROMBONE</h2><br>
+            </div>
+            <h1>$900</h1><br>
+            <p>Lorem ipsum.</p><br>
+            <p>Lorem ipsum.</p><br>
+            <p>Lorem ipsum dolor.</p><br>
+            <p>Lorem ipsum.</p><br>
+            <input id="select" type = "submit" value="SELECT" name = "button">
+        </div>
+
+        <div id="box3">
+            <div id="h2div"><h2 > TROMBONE</h2><br>
+            </div>
+            <h1>$1200</h1><br>
+            <p>Lorem ipsum.</p><br>
+            <p>Lorem ipsum.</p><br>
+            <p>Lorem ipsum dolor.</p><br>
+            <p>Lorem ipsum.</p><br>
+            <input id="select" type = "submit" value="SELECT" name = "button">
+        </div>
     </div>
     <!--Footer section-->
     <footer id="footer">
