@@ -3,6 +3,7 @@
     <style>
         body{
             background: rgb(236, 234, 234);
+            @media(max-height:800px){p{font-size:10px;}}
         }
         #cont{
             display: flex;
@@ -51,7 +52,15 @@
     line-height:1;
 }
 #header-img{
-    @media(max-width: 200px;)
+ max-width: 400px;
+ height: auto;
+}
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
 }
 #video{
     margin-left: 400px;
@@ -138,10 +147,6 @@ img{
 </head>
 <body>
     <script src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    
-
-
-
     <header id ="header">
         <div class="logo">
             <img
@@ -173,19 +178,7 @@ img{
                 <input id="submit" type="submit" value="Get started">
             </form>
     <div>
-<<<<<<< HEAD
-    <section id="content">
-        <i class="fas fa-fire fa-5x"></i> </i><h2>Premium Materials</h2>
-        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-        <i class="fas fa-truck fa-5x"></i> <h2>Fast Shipping</h2>
-        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if <br>you are not satisfied.</p>
-        <i class="fas fa-battery-three-quarters fa-5x"></i><h2>Quality Assurance</h2>
-        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of<br>your instrument.</p>
-    </section>
-    </div>
-    <section id="video">
-     
-=======
+
         <section id="content">
             <i class="fas fa-fire fa-5x"></i> </i><h2>Premium Materials</h2>
             <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
@@ -194,7 +187,6 @@ img{
             <i class="fas fa-battery-three-quarters fa-5x"></i><h2>Quality Assurance</h2>
             <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of<br>your instrument.</p>
         </section>
->>>>>>> 868924b9d7921d2fac819c39e1f6c6b7236ca6a8
 
     </div>
     
